@@ -13,7 +13,7 @@ struct SwiftUiListApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VideoListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
